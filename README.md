@@ -17,10 +17,8 @@ sound-masterplan-local-features/
 ├── CITATION.cff
 │
 ├── docs/
-│   ├── thesis.pdf
 │   ├── article.pdf
 │   ├── poster.pdf
-│   └── methodology_summary.pdf
 │
 ├── data/
 │   ├── raw/

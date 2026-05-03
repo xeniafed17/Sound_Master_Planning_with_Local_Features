@@ -7,61 +7,36 @@
 
 ## Описание структуры репозитория
 
-Репозиторий организован таким образом, чтобы разделить текстовые материалы, исходные данные, обработанные данные, ГИС-файлы, и итоговые результаты исследования.
+Репозиторий `sound-masterplan-local-features` содержит материалы выпускной квалификационной работы, посвященной разработке методики проектирования звукового мастер-плана с учетом локальных особенностей территории. В состав репозитория входят пространственные данные, проект QGIS, стили оформления слоев, результаты опроса жителей, итоговые карты, схемы, иллюстрации, фотоматериалы и текстовые материалы по теме исследования.
 
-```text
+Структура репозитория организована по типам материалов: пространственные данные размещены в папке `data`, проектные файлы QGIS — в папке `qgis`, итоговые графические материалы — в папке `outputs`, текстовые документы — в папке `docs`, а материалы натурного обследования — в папке `media`.
+
 sound-masterplan-local-features/
 │
-├── README.md
-├── LICENSE
-├── CITATION.cff
+├── data/
+│   ├── limitations/
+│   ├── noise measurement/
+│   ├── noize_producer/
+│   ├── noize_reducer/
+│   ├── situational plan/
+│   ├── sound_solutions/
+│   ├── survey_results/
+│   └── types/
 │
 ├── docs/
 │   ├── article.pdf
-│   ├── poster.pdf
 │
-├── data/
-│   ├── raw/
-│   │   ├── boundaries/
-│   │   ├── noise_measurements/
-│   │   ├── survey/
-│   │   ├── field_observation/
-│   │   └── project_docs/
-│   │
-│   ├── processed/
-│   │   ├── area_passport.geojson
-│   │   ├── functional_zone.geojson
-│   │   ├── local_limit.geojson
-│   │   ├── noise_producer.geojson
-│   │   ├── control_points.geojson
-│   │   ├── noise_reducer.geojson
-│   │   ├── territory_types.geojson
-│   │   ├── sound_classification.geojson
-│   │   ├── local_features.geojson
-│   │   └── sound_solutions.geojson
-│   │
-│   └── metadata/
-│       ├── data_dictionary.md
-│       └── sources.md
-│
-├── qgis/
-│   ├── sound_masterplan_project.qgz
-│   ├── styles/
-│   └── layouts/
-│
-├── notebooks/
-│   ├── noise_measurements_processing.ipynb
-│   ├── survey_analysis.ipynb
-│   └── scenario_comparison.ipynb
+├── media/
+│   └── photo/
 │
 ├── outputs/
-│   ├── maps/
+│   ├── diagrams/
 │   ├── figures/
-│   └── tables/
+│   └── maps/
 │
-└── media/
-    ├── audio_samples/
-    └── photos_compressed/
+└── qgis/
+    ├── Sound Master Plan for White Nights Boulevard.qgz
+    └── styles/
 
     ## Описание исходных данных и метода
 

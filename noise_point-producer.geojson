@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"name": "noise_point-producer",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:EPSG::32636" } },
+"features": [
+{ "type": "Feature", "properties": { "type": "Спортивная площадка", "radius": 30, "id": 6 }, "geometry": { "type": "Point", "coordinates": [ 336389.668827117187902, 6633940.713324181735516 ] } },
+{ "type": "Feature", "properties": { "type": "Детская площадка ", "radius": 45, "id": 5 }, "geometry": { "type": "Point", "coordinates": [ 336372.88549005636014, 6633832.556602495722473 ] } },
+{ "type": "Feature", "properties": { "type": "Детская площадка", "radius": 30, "id": 1 }, "geometry": { "type": "Point", "coordinates": [ 336373.593277836102061, 6633707.262099951505661 ] } },
+{ "type": "Feature", "properties": { "type": "Детская площадка", "radius": 30, "id": 2 }, "geometry": { "type": "Point", "coordinates": [ 336411.856050084461458, 6633587.277424981817603 ] } },
+{ "type": "Feature", "properties": { "type": "Детская площадка", "radius": 30, "id": 3 }, "geometry": { "type": "Point", "coordinates": [ 336399.445430690248031, 6633622.337424770928919 ] } },
+{ "type": "Feature", "properties": { "type": "Детская площадка", "radius": 30, "id": 4 }, "geometry": { "type": "Point", "coordinates": [ 336408.753395235922653, 6633608.065212467685342 ] } },
+{ "type": "Feature", "properties": { "type": "Спортивная площадка", "radius": 30, "id": 7 }, "geometry": { "type": "Point", "coordinates": [ 336398.356260693108197, 6633395.887132775969803 ] } },
+{ "type": "Feature", "properties": { "type": "Спортивная площадка", "radius": 30, "id": 8 }, "geometry": { "type": "Point", "coordinates": [ 336461.96068508841563, 6633414.813327351585031 ] } },
+{ "type": "Feature", "properties": { "type": "Спортивная площадка", "radius": 30, "id": 9 }, "geometry": { "type": "Point", "coordinates": [ 336497.330950361909345, 6633433.73952192813158 ] } }
+]
+}
